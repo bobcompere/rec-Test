@@ -1,0 +1,3 @@
+
+    strHtml = strHtml + "<td style='CURSOR: hand' bgcolor=#E5EAEE onmouseout=this.style.backgroundColor='#E5EAEE' onmouseover=this.style.backgroundColor='#A3CEF1' onClick=fnLink('command=vehicleSelection.create&finalcommand=clientIndividualVehicle.create&signon=client&country=USA')><a href=\"command=vehicleSelection.create&finalcommand=clientIndividualVehicle.create&signon=client&country=USA\">Vehicle Information</a></td>"
+  

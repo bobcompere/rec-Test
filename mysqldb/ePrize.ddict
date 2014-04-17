@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataDictionary>
+  <Database name="ePrizeDev">
+    <Driver>com.mysql.jdbc.Driver</Driver>
+    <URL>jdbc:mysql://vegas/eprizeDev</URL>
+    <Username>eprize</Username>
+    <Password>eprize</Password>
+    <Tables>
+      <Table>
+        <name>test</name>
+        <remarks />
+        <primaryKey>test_id</primaryKey>
+        <Columns>
+          <Column>
+            <name>test_id</name>
+            <sqlType>INTEGER</sqlType>
+            <size>10</size>
+            <description>Test Id</description>
+          </Column>
+          <Column>
+            <name>textfield</name>
+            <sqlType>CHAR</sqlType>
+            <size>20</size>
+            <description>Textfield</description>
+          </Column>
+          <Column>
+            <name>numfield</name>
+            <sqlType>DECIMAL</sqlType>
+            <size>20.10</size>
+            <description>Numfield</description>
+          </Column>
+          <Column>
+            <name>boolfield</name>
+            <sqlType>BIT</sqlType>
+            <size>1</size>
+            <description>Boolfield</description>
+          </Column>
+        </Columns>
+      </Table>
+    </Tables>
+    <Views />
+  </Database>
+  <!--File Written By com.swc.catalyst.plugin.editors.database.DataDictionaryEditor Thu Jan 05 14:40:58 CST 2012-->
+</DataDictionary>
+

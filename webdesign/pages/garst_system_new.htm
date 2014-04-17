@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Garst Seed Company</title>
+<link rel="stylesheet" href="../css/styles.css">
+<script language="JavaScript">
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+function emailClicked() {
+	var j1 = 0;
+	for (var i1=0; i1<document.UIservletForm.elements.length; i1++) {
+		if (document.UIservletForm.elements[i1].name.indexOf("CHECK_") > -1  &&
+			document.UIservletForm.elements[i1].checked) {
+				j1++;
+		}
+		if (j1 > 1) break;
+	}
+	if (j1 != 1) {
+		alert('Only 1 report may be emailed at a time.');
+		return false;
+	} else {
+		return true;
+	}
+}
+
+function deleteClicked() {
+	var yesno = confirm("Are you sure?");
+	if (yesno == true){
+		document.UIservletForm.deleteoption.value = "yes";
+    	document.UIservletForm.submit();
+    }else{
+    	return false;
+    }
+}
+function focusUsername() {
+	alert('in focus username');
+	document.UIservletForm.USERNAME.focus();
+}
+</script>
+</head>
+<body class="Normal1"> 
+<table height="35" cellspacing="0" cellpadding="0" width="757" border="0" ms_2d_layout="TRUE"> 
+	<tr valign="top"> 
+		<!--LEFT NAVBAR--> 
+		<td width="10" height="15"> <table border="0" width="1" height="1" cellspacing="0" cellpadding="0" id="OuterTable" align="left"> 
+				<tr id="R1OuterTable"> 
+					<td width="1" id="C1R1OuterTable"> <table border="0" width="1" height="1" cellspacing="0" cellpadding="0" id="LHeader"> 
+							<tr> 
+								<td> <img src="../images/Blank.jpg" width="150" height="126" border="0" id="HDR1_ULImage"></td> 
+							</tr> 
+							<tr> 
+								<td> <table border="0" cellspacing="0" cellpadding="0" width="10"> 
+										<tr> 
+											<td width="2"> <img src="../images/productsVer3_17.jpg" width="4" height="11"></td> 
+											<td width="2"> <img src="../images/productsVer3_18.jpg" width="121" height="11"></td> 
+											<td width="2"> <img src="../images/productsVer3_19.jpg" width="25" height="11"></td> 
+										</tr> 
+									</table></td> 
+							</tr> 
+						</table></td> 
+					<td width="1" id="C2R1OuterTable"> <table border="0" width="1" height="1" cellspacing="0" cellpadding="0" id="SubGarst"> 
+							<tr> 
+								<td width="1"> <img src="../images/productsVer3_02.jpg" width="354" height="107"></td> 
+								
+                <td width="1"> <img src="../images/productsVer3_03.jpg" width="450" height="107"></td> 
+							</tr> 
+						</table> 
+						<table border="0" width="1" height="1" cellspacing="0" cellpadding="0" id="SubLinks"> 
+							<tr> 
+								<td width="1"> <img src="../images/productsVer3_04.jpg" width="118" height="19"></td> 
+								<td width="1"> <img src="../images/horizontal_bar.gif" width="685" height="19"></td> 
+							</tr> 
+						</table> 
+						<table border="0" width="1" height="1" cellspacing="0" cellpadding="0" id="SubSpacer"> 
+							<tr> 
+								<td width="1"> <img src="../images/products_15.gif" width="131" height="11"></td> 
+							</tr> 
+						</table></td> 
+				</tr> 
+			</table></td> 
+	</tr> 
+	 
+</table> 
+<table height="35" cellspacing="0" cellpadding="0" width="846" border="0"> 
+	<tr valign="top"> 
+		<!--LEFT NAVBAR--> 
+		<td width="10" height="15" bgcolor="#257229"> <table border="0" width="1" cellspacing="0" cellpadding="0"> 
+				<tr> 
+					<td> <table border="0" width="1" cellspacing="0" cellpadding="0"> 
+							<tr> 
+								<td width="1"> <img src="../images/products_17.jpg" width="4" height="157"></td> 
+								<td width="17%"> <table border="0" width="44%" cellspacing="0" cellpadding="0"> 
+										<tr> 
+											<td width="100%"> <a href="command=report.list" onMouseOver="MM_swapImage('menu3','','../images/bt_reports_lit.gif',1)" onMouseOut="MM_swapImgRestore()"><img name="menu3" src="../images/bt_reports.gif" width="121" height="34" border="0"></a></td> 
+										</tr> 
+										<tr> 
+											<td width="1"> <img name="menu6" src="../images/bt_blank.gif" width="121" height="34" border="0" id="menu6"></td> 
+										</tr> 
+										<tr> 
+											<td width="1"> <img name="menu7" src="../images/bt_blank.gif" width="121" height="34" border="0" id="menu7"></td> 
+										</tr> 
+										<tr> 
+											<td width="1"> <img name="menu8" src="../images/bt_blank.gif" width="121" height="34" border="0" id="menu8"></td> 
+										</tr> 
+										<tr> 
+											<td width="1"> <img src="../images/products_25.jpg" width="121" height="20"></td> 
+										</tr> 
+									</table></td> 
+								<td width="1" valign="top"> <table border="0" cellspacing="0" cellpadding="0"> 
+										<tr> 
+											<td width="100%"> <img src="../images/productsVer3_24.jpg" width="25" height="137"></td> 
+										</tr> 
+										<tr> 
+											<td width="100%"> <img src="../images/productsVer3_37.jpg" width="25" height="20"></td> 
+										</tr> 
+									</table></td> 
+							</tr> 
+							 
+							 </table> 
+						<table border="0" width="1" cellspacing="0" cellpadding="0"> 
+							<tr> 
+								<td width="1" bgcolor="#1a7021"><img border="0" src="images/grspacer2.jpg" width="4" height="6"></td> 
+								<td width="1"> <img src="../images/HomePage.jpg" width="140" height="306" border="0" id="LHDR1_LImage"></td> 
+								<td width="1" bgcolor="#257229"><img border="0" src="images/grspacer.jpg" width="6" height="7"></td> 
+							</tr> 
+						</table></td> 
+				</tr> 
+			</table></td> 
+		<td width="1" bgcolor="#000000"></td> 
+		<td width="500" height="15" bgcolor="#ffffcc"><!--MAIN CONTENTS CONTAINER CELL--> 
+			<table height="35" cellspacing="0" cellpadding="5" border="0"> 
+				<tr> 
+					<td valign="top"> <p><span class="normal"><img src="../images/reports.gif" alt="Reports" width="341" height="37"></span></p> 
+						SERVLETAREA
+						<p><img src="../images/pix.jpg" width="590" height="2"><br> 
+						</p></td> 
+									<td bgcolor="#ffffcc" valign="top"><a href="command=user.logout">Logout</a></td>
+			</tr> 
+			</table> 
+</td> 
+		<td width="6" background="images/end.jpg"></td> 
+		<td width="25"></td> 
+	</tr> 
+</table> 
+</body>
+</html>

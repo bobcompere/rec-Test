@@ -1,0 +1,10 @@
+<DeploymentSystemMap>
+  <server name="localhost" password="" clearFlags="false" autoRestart="true" ssl="no">
+    <domain>127.0.0.1</domain>
+    <zone>swc</zone>
+    <alias>deploy</alias>
+    <port />
+    <group />
+  </server>
+  <!--File Written By com.swc.catalyst.plugin.editors.dxml.DeploymentMapEditor-->
+</DeploymentSystemMap>

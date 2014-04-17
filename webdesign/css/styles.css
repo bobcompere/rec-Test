@@ -1,0 +1,134 @@
+P {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+}
+P.error {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+	color: #FF0000;
+}
+INPUT {
+	font-family: Courier, monospace;
+	font-size: 9pt;
+}
+P.next { 
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+}
+OL, UL {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+}
+H1 {
+	font-family: Verdana, Helvetica, Arial sans-serif;
+	font-size: 14pt;
+}
+H2 {
+	font-family: Verdana, Helvetica, Arial sans-serif;
+	font-size: 12pt;
+}
+H3 {
+	font-family: Verdana, Helvetica, Arial sans-serif;
+	font-size: 10pt;
+}
+H4{
+	font-family: Verdana, Helvetica, Arial sans-serif;
+	font-size: 9pt;
+}
+TH {
+	background-color : #669999;
+	color : #FFFFFF;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+	border : thin solid White;
+}
+TD {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+}
+A.leftnav:link {
+	font-family:Verdana, Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFCC33;
+	text-decoration: none;
+}
+A.leftnav:hover {
+	font-family:Verdana, Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+A.leftnav:visited {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #ffffcc;
+	text-decoration: none;
+}
+A.sqlHeader:link {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 9pt;
+	color: White;
+}
+A.sqlHeader:hover {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 9pt;
+	color: White;
+}
+A.sqlHeader:visited {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 9pt;
+	color: White;
+}
+.leftnavheading {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+	font-weight:bold;
+	color: #FFFFFF;
+}
+.navBackground {
+	background-color: #009999;
+}
+.adsBackground {
+	background-color: #009999;
+}
+.navFooterItem {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #009999;
+	text-decoration: none;
+}
+div.page{
+	page-break-before: always;
+	text-align: left;
+}
+.calNum {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+	font-size:-1;
+	font-weight : bold;
+}
+.calLink {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 7pt;
+	font-size:-2;
+}
+
+.caption {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 7pt;
+	font-size:-2;
+	font-style : italic;
+}
+.red{
+	color : #FF0000;
+}

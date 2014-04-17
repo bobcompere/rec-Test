@@ -1,0 +1,4 @@
+# Property File
+# Sorted by com.swc.fpjava.util.PropertiesUtil
+# Wed Apr 09 07:38:03 CDT 2008
+templates.tablereport=/var/tomcat4_0/webapps/bcs/WEB-INF/fo_templates/table_report.fo

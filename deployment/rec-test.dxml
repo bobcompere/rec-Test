@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeploymentSystemMap>
+<jardev>
+	<jarBuildInfo  name="rec-test">
+	   <package>/com/swc/test</package>
+	</jarBuildInfo>
+	<jarBuildInfo  name="rec-j2ee">
+	   <package>/com/rec/playj2ee</package>
+	</jarBuildInfo>
+</jardev>
+<design name="rec"> 
+	<root>/webdesign</root>
+   <servletpages>pages</servletpages>
+</design>
+</DeploymentSystemMap>

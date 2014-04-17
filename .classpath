@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="src" path="/swc-fpjava"/>
+	<classpathentry kind="lib" path="libraryJars/jsdk.jar"/>
+	<classpathentry kind="lib" path="libraryJars/fs3_20021112.jar"/>
+	<classpathentry kind="lib" path="libraryJars/crimson.jar"/>
+	<classpathentry kind="lib" path="libraryJars/jaxp.jar"/>
+	<classpathentry kind="lib" path="libraryJars/jdom.jar"/>
+	<classpathentry kind="lib" path="/swc-fpjava/libraryJars/activation.jar"/>
+	<classpathentry kind="lib" path="/swc-fpjava/libraryJars/mail.jar"/>
+	<classpathentry kind="con" path="DERBY_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

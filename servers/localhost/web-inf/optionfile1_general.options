@@ -1,0 +1,4 @@
+# Property File
+# Sorted by com.swc.fpjava.util.PropertiesUtil
+# Wed Apr 09 07:44:21 CDT 2008
+templates.tablereport={TEMPLATE_FOLDER}table_report.fo

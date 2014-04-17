@@ -1,0 +1,360 @@
+<templates>
+<table id="ManagementBehaviors" type="RowColumnRepeat">
+	  <row>
+	    <column>Management Behavior</column>
+	    <column unique="1" repeat="/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateSummary_section">/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateSummary_section/my:managementBehaviorCandidateNames</column>
+	    <column>Topline Comparison</column>
+	  </row>
+	  <row repeat="/my:myFields/my:managementBehavior_section">
+	    <column>/my:myFields/my:managementBehavior_section/my:managementBevahiorHeading</column>
+	    <column unique="1" repeat="/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateSummary_section">/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateSummary_section/my:managementBehaviorCandidateCapability</column>
+	    <column>/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateTopline</column>
+	  </row>
+	</table>
+
+  
+  <table id="ObjectiveAchievement" columns="2" bordercolor="188,155,106" border="1" spacing=".06" padding="4" Type="RowRepeat" >
+    <row bgcolor="188,155,106" color="255,255,255" fontsize="10" fontstyle="bold">
+      <column colspan="2">Does each manager of the senior team possess the capabilities required to achieve the deal’s objectives?</column>
+    </row>
+    <row repeat="Employee" fontsize="10">
+      <column width="3">[NameTitleDept:TopBottom]</column>
+      <column width=".5" mapping="triangle" align="center">/my:myFields/my:CanAchieveDealsObjective</column>
+    </row>
+  </table>
+
+  <table id="WinningFormula" rows="14" bordercolor="188,155,106" border="1" spacing=".06" padding="0" Type="ColumnRepeat">
+    <column color="0,0,0" fontsize="10" fontstyle="bold" width="3">
+      <row fontstyle="bold" height=".1">Winning Formula</row>
+      <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold"  height=".1">Behaviors</row>
+      <row fontstyle="defalut" height=".1">Entrepreneurial mindset</row>
+      <row height=".1">Driver of accountability</row>
+      <row height=".1">Savvy relationship skills</row>
+      <row>Lead change</row>
+      <row>Integrity anchor</row>
+      <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >Experience</row>
+      <row fontstyle="defalut">Track record</row>
+      <row>Knowledge</row>
+      <row>Scope</row>
+      <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >Potential</row>
+      <row fontstyle="defalut">Able to handle significant increase in scope and complexity in current or future roles.</row>
+      <row fontstyle="bold" >Overall</row>
+    </column>
+    <column repeat="Employee" color="0,0,0" fontsize="10" width=".5">
+      <row fontstyle="bold" >[EmpInitials]</row>
+      <row merge="True"></row>
+      <row mapping="triangle" align="center">/my:myFields/my:Behaviors/my:EntrepreneurialMindset</row>
+      <row mapping="triangle" align="center">/my:myFields/my:Behaviors/my:DriverOfAccountability</row>
+      <row mapping="triangle" align="center">/my:myFields/my:Behaviors/my:SavvyRelationshipSkills</row>
+      <row mapping="triangle" align="center">/my:myFields/my:Behaviors/my:LeadChange</row>
+      <row mapping="triangle" align="center">/my:myFields/my:Behaviors/my:IntegrityAnchor</row>
+      <row merge="True"></row>
+      <row mapping="triangle" align="center">/my:myFields/my:Experience/my:TrackRecord</row>
+      <row mapping="triangle" align="center">/my:myFields/my:Experience/my:Knowledge</row>
+      <row mapping="triangle" align="center">/my:myFields/my:Experience/my:Scope</row>
+      <row merge="True"></row>
+      <row mapping="triangle" align="center">/my:myFields/my:Potential/my:HandleIncreaseInScope</row>
+      <row mapping="triangle" align="center">/my:myFields/my:Potential/my:overall</row>
+    </column>
+  </table>
+
+  <list id="EmployeeList">
+    <item repeat="employee">[NameTitleDept:inline]</item>
+  </list>
+  
+  <table id="AcceleratePerformance" columns="1">
+    <row>
+      <column>How can the CEO accelerate the performance of this Company?</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:CompanyAcceleration/my:CompanyAcceleration_Row">/my:myFields/my:CompanyAcceleration/my:CompanyAcceleration_Row/my:accelerationNotes</item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <!-- Employee Tables -->
+
+  <table id="EmployeeQuestionsAndAnswers" columns="2" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >
+      <column>Your Questions</column>
+      <column>Our Answers</column>
+    </row>
+    <row repeat="/my:myFields/my:QuestionAnswer/my:QuestionAnswer_Row">
+      <column>/my:myFields/my:QuestionAnswer/my:QuestionAnswer_Row/my:Question</column>
+      <column>/my:myFields/my:QuestionAnswer/my:QuestionAnswer_Row/my:Answer</column>
+    </row>
+  </table>
+
+  <table id="EmployeeUpsidesAndDownsides" columns="2" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >
+      <column>Upsides</column>
+      <column>Downsides</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:UpsideDownside/my:UpsideDownside_Row">
+            /my:myFields/my:UpsideDownside/my:UpsideDownside_Row/my:Upside
+          </item>
+        </list>
+      </column>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:UpsideDownside/my:UpsideDownside_Row">
+            /my:myFields/my:UpsideDownside/my:UpsideDownside_Row/my:Downside
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <table id="EmployeePerformanceAccelerators" columns="1" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >
+      <column>Performance Accelerators</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:PerformanceAccelerators/my:PerformanceAccelerator_Row">
+            /my:myFields/my:PerformanceAccelerators/my:PerformanceAccelerator_Row/my:PerformanceAccelerator
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <!-- Team Tables -->
+
+  <table id="TeamUpsidesAndDownsides" columns="2" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row>
+      <column>Upsides</column>
+      <column>Downsides</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:TeamUpsideDownside/my:TeamUpsideDownside_Row">
+            /my:myFields/my:TeamUpsideDownside/my:TeamUpsideDownside_Row/my:TeamUpsides
+          </item>
+        </list>
+      </column>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:TeamUpsideDownside/my:TeamUpsideDownside_Row">
+            /my:myFields/my:TeamUpsideDownside/my:TeamUpsideDownside_Row/my:TeamDownsides
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <table id="TeamPerformanceAccelerators" columns="1" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >
+      <column>Performance Accelerators</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:TeamPerformanceAccelerators/my:TeamPerformanceAccelerators_Row">
+            /my:myFields/my:TeamPerformanceAccelerators/my:TeamPerformanceAccelerators_Row/my:TeamPerformanceAccelerator
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <!-- Organization Tables -->
+  <table id="OrganizationUpsidesAndDownsides" columns="2" bordercolor="188,155,106" border="1" spacing=".06" padding="0" rows="2">
+    <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >
+      <column>Upsides</column>
+      <column>Downsides</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:OrganizationUpsideDownside/my:OrganizationUpsideDownside_Row">
+            /my:myFields/my:OrganizationUpsideDownside/my:OrganizationUpsideDownside_Row/my:OrganizationUpside
+          </item>
+        </list>
+      </column>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:OrganizationUpsideDownside/my:OrganizationUpsideDownside_Row">
+            /my:myFields/my:OrganizationUpsideDownside/my:OrganizationUpsideDownside_Row/my:OrganizationDownside
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <table id="OrganizationPerformanceAccelerators" columns="1" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >
+      <column>Performance Accelerators</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:OrganizationPerformanceAccelerators/my:OrganizationPerformanceAccelerators_Row">
+            /my:myFields/my:OrganizationPerformanceAccelerators/my:OrganizationPerformanceAccelerators_Row/my:OrganizationPerformanceAccelerator
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <!-- CEO Tables -->
+
+  <table id="CEOUpsidesAndDownsides" columns="2" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row>
+      <column>Upsides</column>
+      <column>Downsides</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:CEOUpsideDownside/my:CEOUpsideDownside_Row">
+            /my:myFields/my:CEOUpsideDownside/my:CEOUpsideDownside_Row/my:CEOUpside
+          </item>
+        </list>
+      </column>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:CEOUpsideDownside/my:CEOUpsideDownside_Row">
+            /my:myFields/my:CEOUpsideDownside/my:CEOUpsideDownside_Row/my:CEODownside
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <table id="CEOPerformanceAccelerators" columns="1" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >
+      <column>Performance Accelerators</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:CEOPerformanceAccelerators/my:CEOPerformanceAccelerators_Row">
+            /my:myFields/my:CEOPerformanceAccelerators/my:CEOPerformanceAccelerators_Row/my:CEOPerformanceAccelerator
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <!-- Ownership Tables -->
+
+  <table id="OwnershipUpsidesAndDownsides" columns="2" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row>
+      <column>Upsides</column>
+      <column>Downsides</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:OwnershipUpsideDownside/my:OwnershipUpsideDownside_Row">
+            /my:myFields/my:OwnershipUpsideDownside/my:OwnershipUpsideDownside_Row/my:OwnershipUpside
+          </item>
+        </list>
+      </column>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:OwnershipUpsideDownside/my:OwnershipUpsideDownside_Row">
+            /my:myFields/my:OwnershipUpsideDownside/my:OwnershipUpsideDownside_Row/my:OwnershipDownside
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+  <table id="OwnershipPerformanceAccelerators" columns="1" bordercolor="188,155,106" border="1" spacing=".06" padding="4" rows="2">
+    <row bgcolor="188,155,106" color="255,255,255" fontstyle="bold" >
+      <column>Performance Accelerators</column>
+    </row>
+    <row>
+      <column>
+        <list>
+          <item repeat="/my:myFields/my:OwnershipPerformanceAccelerators/my:OwnershipPerformanceAccelerators_Row">
+            /my:myFields/my:OwnershipPerformanceAccelerators/my:OwnershipPerformanceAccelerators_Row/my:OwnershipPerformanceAccelerator
+          </item>
+        </list>
+      </column>
+    </row>
+  </table>
+
+
+  <mapping id="triangle" type="image">
+    <yes>http://sharepoint2007.test.swc.com/SiteDirectory/rhr/Document%20Icons/CheckBox.png</yes>
+    <maybe>http://sharepoint2007.test.swc.com/SiteDirectory/rhr/Document%20Icons/Yield.png</maybe>
+    <no>http://sharepoint2007.test.swc.com/SiteDirectory/rhr/Document%20Icons/XBox.png</no>
+  </mapping>
+
+  <RepeatingPages id="SeniorExecutiveTeamTalentAudit">
+    <startPage>9</startPage>
+    <endPage>12</endPage>     
+  </RepeatingPages>
+
+  <table id="WinningFormulaSummaryTable" Type="Static" columns="3" rows="14" bordercolor="188,155,106" border="1" spacing=".06" padding="0">
+    <row fontsize="10" fontstyle="bold">
+      <column width="2.35">Winning Formula</column>
+      <column width=".7" align="center">Rating</column>
+      <column width="5.71" align="center">Conclusions</column>
+    </row>
+    <row bgcolor="188,155,106" color="255,255,255" fontsize="10" fontstyle="bold">
+      <column colspan="3">Behaviors</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Entrepreneurial mindset</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Behaviors/my:EntrepreneurialMindset</column>
+      <column width="5.71" rowspan="5">/my:myFields/my:Behaviors/my:BehaviorConclusion</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Driver of accountability</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Behaviors/my:DriverOfAccountability</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Savvy relationship skills</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Behaviors/my:SavvyRelationshipSkills</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Lead change</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Behaviors/my:LeadChange</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Integrity anchor</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Behaviors/my:IntegrityAnchor</column>      
+    </row>
+    <row bgcolor="188,155,106" color="255,255,255" fontsize="10" fontstyle="bold">
+      <column colspan="3">Experience</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Track record</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Experience/my:TrackRecord</column>
+      <column width="5.71" rowspan="3">/my:myFields/my:Experience/my:ExperienceConclusion</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Knowledge</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Experience/my:Knowledge</column>      
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Scope</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Experience/my:Scope</column>
+    </row>
+    <row bgcolor="188,155,106" color="255,255,255" fontsize="10" fontstyle="bold">
+      <column colspan="3">Potential</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35">Able to handle significant increase in scope and complexity in current or future roles.</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Potential/my:HandleIncreaseInScope</column>
+      <column width="5.71" rowspan="2">/my:myFields/my:Potential/my:PotentialConclusion</column>
+    </row>
+    <row fontsize="10">
+      <column width="2.35" fontstyle="bold">Overall</column>
+      <column mapping="triangle" width=".7" align="center">/my:myFields/my:Potential/my:overall</column>      
+    </row>
+  </table>
+  
+  </templates>

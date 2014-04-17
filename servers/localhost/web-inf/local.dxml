@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeploymentSystemMap>
+  <general name="swc-web-inf">C:\Program Files\Apache Software Foundation\Tomcat 5.0\webapps\swc\WEB-INF</general>
+  <jarprod name="swc" deploy="C:\Program Files\Apache Software Foundation\Tomcat 5.0\webapps\swc\WEB-INF\lib">C:\Program Files\Apache Software Foundation\Tomcat 5.0\webapps\swc\WEB-INF\lib</jarprod>
+  <web name="web-root">
+    c:\inetpub\wwwroot
+    <host>127.0.0.1</host>
+    <zone>swc</zone>
+    <alias>test</alias>
+    <relativeLinks>no</relativeLinks>
+    <absoluteLinks>no</absoluteLinks>
+  </web>
+  <general name="bcs-web-inf">C:\Program Files\Apache Software Foundation\Tomcat 5.0\webapps\bcs\WEB-INF</general>
+  <jarprod name="bcs" deploy="C:\Program Files\Apache Software Foundation\Tomcat 5.0\webapps\bcs\WEB-INF\lib">C:\Program Files\Apache Software Foundation\Tomcat 5.0\webapps\bcs\WEB-INF\lib</jarprod>
+  <web name="bcs">
+    c:/inetpub/wwwroot/bonded/bcs
+    <servletpages>C:/Program Files/Apache Software Foundation/Tomcat 5.0/webapps/bcs/WEB-INF/servletPages</servletpages>
+    <relativeToRoot>/bonded/bcs</relativeToRoot>
+    <host>127.0.0.1</host>
+    <zone>bcs</zone>
+    <alias>online</alias>
+    <commandProtocol>http:</commandProtocol>
+    <relativeLinks>no</relativeLinks>
+    <absoluteLinks>no</absoluteLinks>
+  </web>
+  <!--File Written By com.swc.catalyst.plugin.editors.dxml.DeploymentMapEditor Tue Dec 13 06:44:21 CST 2005-->
+</DeploymentSystemMap>
+

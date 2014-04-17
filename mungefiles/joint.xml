@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-infoPathSolution solutionVersion="1.0.0.1529" productVersion="12.0.0" PIVersion="1.0.0.0" href="http://sharepoint2007.test.swc.com/SiteDirectory/rhr/SRD%20CanidateComp/Forms/AllItems.aspx.xsn" name="urn:schemas-microsoft-com:office:infopath:AllItems-aspx:-myXSD-2009-02-05T15-46-03" ?>
+<?mso-application progid="InfoPath.Document" versionProgid="InfoPath.Document.2"?>
+<my:myFields xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:s0="http://microsoft.com/webservices/SharePointPortalServer/UserProfileService" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns1="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://schemas.microsoft.com/sharepoint/soap/" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2009-02-05T15:46:03" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xml:lang="en-us">
+	<my:consultantInfo>
+		<my:Date>20091010</my:Date>
+		<my:consultantName>InverviewerSeth</my:consultantName>
+		<my:consultantAddress1>ConsultantAddress1</my:consultantAddress1>
+		<my:consultantAddress2>ConsultantAddress2</my:consultantAddress2>
+		<my:consultantAddress3>ConsultantAddress3</my:consultantAddress3>
+		<my:consultantPhone>888-234-2341</my:consultantPhone>
+	</my:consultantInfo>
+	<my:companyInfo-BioData>
+		<my:companyName>Joint Commision</my:companyName>
+		<my:billingCenter>Billing Center List</my:billingCenter>
+		<my:projectName>CEO Project</my:projectName>
+		<my:assessmentType>CEOS</my:assessmentType>
+		<my:jobTitle>CEO</my:jobTitle>
+		<my:privateEquityFirm>Chase</my:privateEquityFirm>
+		<my:functionalArea>Func1</my:functionalArea>
+		<my:functionalAreaOther></my:functionalAreaOther>
+		<my:industryType>Ind1</my:industryType>
+		<my:industryTypeOther></my:industryTypeOther>
+		<my:revenueSizeCurrency>us</my:revenueSizeCurrency>
+		<my:revenueSizePlaceholder>- Please select currency first -</my:revenueSizePlaceholder>
+		<my:revenueSizeUS>&lt; $100 million</my:revenueSizeUS>
+		<my:revenueSizeCanadian></my:revenueSizeCanadian>
+		<my:revenueSizePounds></my:revenueSizePounds>
+		<my:revenueSizeEuros></my:revenueSizeEuros>
+		<my:stakeholders_row>
+			<my:stakeholderNames>Stake1</my:stakeholderNames>
+		</my:stakeholders_row>
+	<my:stakeholders_row>
+										<my:stakeholderNames>Stake2</my:stakeholderNames>
+									</my:stakeholders_row><my:stakeholders_row>
+										<my:stakeholderNames>Stake3</my:stakeholderNames>
+									</my:stakeholders_row></my:companyInfo-BioData>
+	<my:roleImperatives_row>
+		<my:roleImperative>Role Imperative 1</my:roleImperative>
+		<my:roleImperativeDescription>Role Imperative Description 1</my:roleImperativeDescription>
+	</my:roleImperatives_row>
+	<my:roleImperatives_row>
+									<my:roleImperative>Role Imperative 1</my:roleImperative>
+									<my:roleImperativeDescription>Role Imperative Description 2</my:roleImperativeDescription>
+	</my:roleImperatives_row><my:managementBehavior_section>
+		<my:managementBevahiorHeading>Man Behavior 1</my:managementBevahiorHeading>
+		<my:managementBehaviorDescription_row>
+			<my:managementBehaviorDescription>Discreet Man Behavior 1A</my:managementBehaviorDescription>
+		</my:managementBehaviorDescription_row>
+		<my:managementBehaviorDescription_row>
+									<my:managementBehaviorDescription>Discreet Man Behavior 2A</my:managementBehaviorDescription>
+								</my:managementBehaviorDescription_row><my:managementBehaviorDescription_row>
+									<my:managementBehaviorDescription>Discreet Man Behavior 3A</my:managementBehaviorDescription>
+								</my:managementBehaviorDescription_row><my:managementBehaviorCandidateSummary_section>
+			<my:managementBehaviorCandidateNames>Seth Daluga</my:managementBehaviorCandidateNames>
+			<my:managementBehaviorCandidateCapability>managementBehaviorCandidateCapability1</my:managementBehaviorCandidateCapability>
+			<my:managementBehaviorCandidateConclusion>SRD Conclusion</my:managementBehaviorCandidateConclusion>
+		</my:managementBehaviorCandidateSummary_section>
+		<my:managementBehaviorCandidateSummary_section>
+									<my:managementBehaviorCandidateNames>Noah Swank</my:managementBehaviorCandidateNames>
+									<my:managementBehaviorCandidateCapability>managementBehaviorCandidateCapability1</my:managementBehaviorCandidateCapability>
+									<my:managementBehaviorCandidateConclusion>mwm conclusion: bad</my:managementBehaviorCandidateConclusion>
+								</my:managementBehaviorCandidateSummary_section><my:managementBehaviorCandidateTopline>SRD IS NOT THE CHOICE</my:managementBehaviorCandidateTopline>
+	</my:managementBehavior_section>
+	<my:managementBehavior_section>
+									<my:managementBevahiorHeading>Man Behavior 2</my:managementBevahiorHeading>
+									<my:managementBehaviorDescription_row>
+										<my:managementBehaviorDescription>Discreet Man Behavior 1B</my:managementBehaviorDescription>
+									</my:managementBehaviorDescription_row>
+									<my:managementBehaviorDescription_row>
+									<my:managementBehaviorDescription>Discreet Man Behavior 2B</my:managementBehaviorDescription>
+								</my:managementBehaviorDescription_row><my:managementBehaviorDescription_row>
+									<my:managementBehaviorDescription>Discreet Man Behavior 3B</my:managementBehaviorDescription>
+								</my:managementBehaviorDescription_row>
+									<my:managementBehaviorCandidateSummary_section>
+									<my:managementBehaviorCandidateNames>Seth Daluga</my:managementBehaviorCandidateNames>
+									<my:managementBehaviorCandidateCapability>managementBehaviorCandidateCapability2</my:managementBehaviorCandidateCapability>
+									<my:managementBehaviorCandidateConclusion>capability 2 conclusion for srd</my:managementBehaviorCandidateConclusion>
+								</my:managementBehaviorCandidateSummary_section><my:managementBehaviorCandidateSummary_section>
+									<my:managementBehaviorCandidateNames>Noah Swank</my:managementBehaviorCandidateNames>
+									<my:managementBehaviorCandidateCapability>managementBehaviorCandidateCapability2</my:managementBehaviorCandidateCapability>
+									<my:managementBehaviorCandidateConclusion>cap 2 conclusion for NWM</my:managementBehaviorCandidateConclusion>
+								</my:managementBehaviorCandidateSummary_section><my:managementBehaviorCandidateTopline>NWM WINS</my:managementBehaviorCandidateTopline>
+								</my:managementBehavior_section><my:candidateInfo_section>
+		<my:candidateInclude>true</my:candidateInclude>
+		<my:candidateFirstName>Seth</my:candidateFirstName>
+		<my:candidateLastName>Daluga</my:candidateLastName>
+		<my:candidateName>Seth Daluga</my:candidateName>
+		<my:candidateFirstNameInitial>S</my:candidateFirstNameInitial>
+		<my:candidateCompany>SWC</my:candidateCompany>
+		<my:candidateTenure>Tenure SRD</my:candidateTenure>
+		<my:candidateTitle>Programmer2</my:candidateTitle>
+		<my:candidatePriorRoleExperience_row>
+			<my:candidatePriorRoleExperience>Programmer1</my:candidatePriorRoleExperience>
+		</my:candidatePriorRoleExperience_row>
+		<my:candidatePriorRoleExperience_row>
+									<my:candidatePriorRoleExperience>Programmer0</my:candidatePriorRoleExperience>
+								</my:candidatePriorRoleExperience_row><my:candidateTestInfo_row>
+			<my:candidateTestType>EP</my:candidateTestType>
+			<my:candidateTestScorePlaceholder>- Please select test type first -</my:candidateTestScorePlaceholder>
+			<my:candidateTestScoreEP>candidateTestScoreEP1</my:candidateTestScoreEP>
+			<my:candidateTestScoreHogan></my:candidateTestScoreHogan>
+			<my:candidateTestScoreRavensAPM></my:candidateTestScoreRavensAPM>
+			<my:candidateTestScoreWatsonGlaser></my:candidateTestScoreWatsonGlaser>
+			<my:candidateTestScoreWonderlicI></my:candidateTestScoreWonderlicI>
+			<my:candidateTestScoreWonderlicII></my:candidateTestScoreWonderlicII>
+		</my:candidateTestInfo_row>
+		<my:candidateTestInfo_row>
+									<my:candidateTestType>Hogan</my:candidateTestType>
+									<my:candidateTestScorePlaceholder>- Please select test type first -</my:candidateTestScorePlaceholder>
+									<my:candidateTestScoreEP>candidateTestScoreEP1</my:candidateTestScoreEP>
+									<my:candidateTestScoreHogan>candidateTestScoreHogan1</my:candidateTestScoreHogan>
+									<my:candidateTestScoreRavensAPM></my:candidateTestScoreRavensAPM>
+									<my:candidateTestScoreWatsonGlaser></my:candidateTestScoreWatsonGlaser>
+									<my:candidateTestScoreWonderlicI></my:candidateTestScoreWonderlicI>
+									<my:candidateTestScoreWonderlicII></my:candidateTestScoreWonderlicII>
+								</my:candidateTestInfo_row><my:candidateEducation_section>
+			<my:candidateSchool>NIU</my:candidateSchool>
+			<my:candidateDegrees-row>
+				<my:candidateDegrees>MBA</my:candidateDegrees>
+			</my:candidateDegrees-row>
+		<my:candidateDegrees-row>
+									<my:candidateDegrees>BS</my:candidateDegrees>
+								</my:candidateDegrees-row></my:candidateEducation_section>
+		<my:candidateMultinationalExperience>yes</my:candidateMultinationalExperience>
+		<my:candidateGender>male</my:candidateGender>
+		<my:derailersCandidateRating></my:derailersCandidateRating>
+		<my:experienceCandidateTrackRecord>experienceCandidateTrackRecord1</my:experienceCandidateTrackRecord>
+		<my:experienceCandidateTrackRecordConclusion>SRD Can Con</my:experienceCandidateTrackRecordConclusion>
+		<my:experienceCandidateKnowledge>experienceCandidateKnowledge1</my:experienceCandidateKnowledge>
+		<my:experienceCandidateKnowledgeConclusion>SRD Know Can Con</my:experienceCandidateKnowledgeConclusion>
+		<my:experienceCandidateScope>experienceCandidateScope1</my:experienceCandidateScope>
+		<my:experienceCandidateScopeConclusion>SRD Scope Can Con</my:experienceCandidateScopeConclusion>
+		<my:candidateQuestionsAnswers_row>
+			<my:candidateQuestions>Question 1 SRD</my:candidateQuestions>
+			<my:candidateAnswers>Answer 1 SRD</my:candidateAnswers>
+		</my:candidateQuestionsAnswers_row>
+		<my:candidateQuestionsAnswers_row>
+									<my:candidateQuestions>Question 2 SRD</my:candidateQuestions>
+									<my:candidateAnswers>Answer 2 SRD</my:candidateAnswers>
+								</my:candidateQuestionsAnswers_row><my:candidateUpsideDownside_row>
+			<my:candidateUpside>UP 1 SRD</my:candidateUpside>
+			<my:candidateDownside>Down 1 SRD</my:candidateDownside>
+		</my:candidateUpsideDownside_row>
+		<my:candidateUpsideDownside_row>
+									<my:candidateUpside>UP 2 SRD</my:candidateUpside>
+									<my:candidateDownside>Down 2  SRD</my:candidateDownside>
+								</my:candidateUpsideDownside_row><my:candidateIntegrationConcerns_row>
+			<my:candidateIntegrationConcern>Integration Concern1 SRD</my:candidateIntegrationConcern>
+		</my:candidateIntegrationConcerns_row>
+		<my:candidateIntegrationConcerns_row>
+									<my:candidateIntegrationConcern>Integration Concern2 SRD</my:candidateIntegrationConcern>
+								</my:candidateIntegrationConcerns_row><my:candidatePerformanceAccelerators_row>
+			<my:candidatePerformanceAccelerator>PerformanceAcc SRD 1</my:candidatePerformanceAccelerator>
+		</my:candidatePerformanceAccelerators_row>
+		<my:candidatePerformanceAccelerators_row>
+									<my:candidatePerformanceAccelerator>PerformanceAcc SRD 2</my:candidatePerformanceAccelerator>
+								</my:candidatePerformanceAccelerators_row><my:potentialCandidatePotential>potentialCandidatePotential1</my:potentialCandidatePotential>
+		<my:potentialCandidateConclusion>Con Pot1 SRD</my:potentialCandidateConclusion>
+		<my:overallCandidatePotential>overallCandidatePotential1</my:overallCandidatePotential>
+		<my:overallCandidateConclusion>SRD OVERALL Con</my:overallCandidateConclusion>
+	</my:candidateInfo_section>
+	<my:candidateInfo_section>
+									<my:candidateInclude>true</my:candidateInclude>
+									<my:candidateFirstName>Noah</my:candidateFirstName>
+									<my:candidateLastName>Swank</my:candidateLastName>
+									<my:candidateName>Noah Swank</my:candidateName>
+									<my:candidateFirstNameInitial>N</my:candidateFirstNameInitial>
+									<my:candidateCompany>CWS</my:candidateCompany>
+									<my:candidateTenure>CEO</my:candidateTenure>
+									<my:candidateTitle>VP of CEO</my:candidateTitle>
+									<my:candidatePriorRoleExperience_row>
+										<my:candidatePriorRoleExperience>VP Strategy</my:candidatePriorRoleExperience>
+									</my:candidatePriorRoleExperience_row>
+									<my:candidatePriorRoleExperience_row>
+									<my:candidatePriorRoleExperience>Strategy Analyst</my:candidatePriorRoleExperience>
+								</my:candidatePriorRoleExperience_row><my:candidateTestInfo_row>
+										<my:candidateTestType>EP</my:candidateTestType>
+										<my:candidateTestScorePlaceholder>- Please select test type first -</my:candidateTestScorePlaceholder>
+										<my:candidateTestScoreEP>candidateTestScoreEP1</my:candidateTestScoreEP>
+										<my:candidateTestScoreHogan></my:candidateTestScoreHogan>
+										<my:candidateTestScoreRavensAPM></my:candidateTestScoreRavensAPM>
+										<my:candidateTestScoreWatsonGlaser></my:candidateTestScoreWatsonGlaser>
+										<my:candidateTestScoreWonderlicI></my:candidateTestScoreWonderlicI>
+										<my:candidateTestScoreWonderlicII></my:candidateTestScoreWonderlicII>
+									</my:candidateTestInfo_row>
+									<my:candidateEducation_section>
+										<my:candidateSchool>IU</my:candidateSchool>
+										<my:candidateDegrees-row>
+											<my:candidateDegrees>BS</my:candidateDegrees>
+										</my:candidateDegrees-row>
+									</my:candidateEducation_section>
+									<my:candidateMultinationalExperience>unknown</my:candidateMultinationalExperience>
+									<my:candidateGender>male</my:candidateGender>
+									<my:derailersCandidateRating></my:derailersCandidateRating>
+									<my:experienceCandidateTrackRecord>experienceCandidateTrackRecord1</my:experienceCandidateTrackRecord>
+									<my:experienceCandidateTrackRecordConclusion>NS Can COn</my:experienceCandidateTrackRecordConclusion>
+									<my:experienceCandidateKnowledge>experienceCandidateKnowledge1</my:experienceCandidateKnowledge>
+									<my:experienceCandidateKnowledgeConclusion>NS Know Can Con</my:experienceCandidateKnowledgeConclusion>
+									<my:experienceCandidateScope>experienceCandidateScope1</my:experienceCandidateScope>
+									<my:experienceCandidateScopeConclusion>NS Scope Can Con</my:experienceCandidateScopeConclusion>
+									<my:candidateQuestionsAnswers_row>
+										<my:candidateQuestions>Qust 1 NS</my:candidateQuestions>
+										<my:candidateAnswers>Answer 1 NS</my:candidateAnswers>
+									</my:candidateQuestionsAnswers_row>
+									<my:candidateQuestionsAnswers_row>
+									<my:candidateQuestions>Qust 2 NS</my:candidateQuestions>
+									<my:candidateAnswers>Answer 2 NS</my:candidateAnswers>
+								</my:candidateQuestionsAnswers_row><my:candidateUpsideDownside_row>
+										<my:candidateUpside>UP 1 SRD</my:candidateUpside>
+										<my:candidateDownside>Down 1  SRD</my:candidateDownside>
+									</my:candidateUpsideDownside_row>
+									<my:candidateUpsideDownside_row>
+									<my:candidateUpside>UP 2 SRD</my:candidateUpside>
+									<my:candidateDownside>Down 2  SRD</my:candidateDownside>
+								</my:candidateUpsideDownside_row><my:candidateIntegrationConcerns_row>
+										<my:candidateIntegrationConcern>Integration Concern1 NS</my:candidateIntegrationConcern>
+									</my:candidateIntegrationConcerns_row>
+									<my:candidateIntegrationConcerns_row>
+									<my:candidateIntegrationConcern>Integration Concern 2 NS</my:candidateIntegrationConcern>
+								</my:candidateIntegrationConcerns_row><my:candidatePerformanceAccelerators_row>
+										<my:candidatePerformanceAccelerator>PerformanceAcc NS 1</my:candidatePerformanceAccelerator>
+									</my:candidatePerformanceAccelerators_row>
+									<my:candidatePerformanceAccelerators_row>
+									<my:candidatePerformanceAccelerator>PerformanceAcc NS 2</my:candidatePerformanceAccelerator>
+								</my:candidatePerformanceAccelerators_row><my:potentialCandidatePotential>potentialCandidatePotential1</my:potentialCandidatePotential>
+									<my:potentialCandidateConclusion>Con Pot1 NS</my:potentialCandidateConclusion>
+									<my:overallCandidatePotential>overallCandidatePotential1</my:overallCandidatePotential>
+									<my:overallCandidateConclusion>NS OVERALL Con</my:overallCandidateConclusion>
+								</my:candidateInfo_section><my:derailers>
+		<my:derailersCandidateComparison>no</my:derailersCandidateComparison>
+		<my:derailersInfoPlaceholder>- Please complete the Derailers tab first -</my:derailersInfoPlaceholder>
+		<my:derailersNoComparison_section>
+			<my:derailer1_section>
+				<my:derailer1Include>true</my:derailer1Include>
+				<my:derailer1>Inconsistent in action and words</my:derailer1>
+				<my:derailer1Rating></my:derailer1Rating>
+				<my:derailer1Comment></my:derailer1Comment>
+			</my:derailer1_section>
+			<my:derailer2_section>
+				<my:derailer2Include>true</my:derailer2Include>
+				<my:derailer2>Blames others for failure</my:derailer2>
+				<my:derailer2Rating></my:derailer2Rating>
+				<my:derailer2Comment></my:derailer2Comment>
+			</my:derailer2_section>
+			<my:derailer3_section>
+				<my:derailer3Include>true</my:derailer3Include>
+				<my:derailer3>Emotionally volatile</my:derailer3>
+				<my:derailer3Rating></my:derailer3Rating>
+				<my:derailer3Comment></my:derailer3Comment>
+			</my:derailer3_section>
+			<my:derailer4_section>
+				<my:derailer4Include>true</my:derailer4Include>
+				<my:derailer4>Overly distrustful</my:derailer4>
+				<my:derailer4Rating></my:derailer4Rating>
+				<my:derailer4Comment></my:derailer4Comment>
+			</my:derailer4_section>
+			<my:derailer5_section>
+				<my:derailer5Include>true</my:derailer5Include>
+				<my:derailer5>Overly risk averse</my:derailer5>
+				<my:derailer5Rating></my:derailer5Rating>
+				<my:derailer5Comment></my:derailer5Comment>
+			</my:derailer5_section>
+			<my:derailer6_section>
+				<my:derailer6Include>true</my:derailer6Include>
+				<my:derailer6>Excessively self interested</my:derailer6>
+				<my:derailer6Rating></my:derailer6Rating>
+				<my:derailer6Comment></my:derailer6Comment>
+			</my:derailer6_section>
+			<my:derailer7_section>
+				<my:derailer7Include>false</my:derailer7Include>
+				<my:derailer7>Unwilling to admit mistakes</my:derailer7>
+				<my:derailer7Rating></my:derailer7Rating>
+				<my:derailer7Comment></my:derailer7Comment>
+			</my:derailer7_section>
+			<my:derailer8_section>
+				<my:derailer8Include>false</my:derailer8Include>
+				<my:derailer8>Lacking courage and conviction</my:derailer8>
+				<my:derailer8Rating></my:derailer8Rating>
+				<my:derailer8Comment></my:derailer8Comment>
+			</my:derailer8_section>
+		</my:derailersNoComparison_section>
+		<my:derailersComparison_section>
+			<my:derailersTopline></my:derailersTopline>
+			<my:group2>
+				<my:group3></my:group3>
+			</my:group2>
+		</my:derailersComparison_section>
+	</my:derailers>
+	<my:experience>
+		<my:experienceCandidateTrackRecordTopline>Topline Con Comp</my:experienceCandidateTrackRecordTopline>
+		<my:experienceCandidateKnowledgeTopline>Know Can Con Topline</my:experienceCandidateKnowledgeTopline>
+		<my:experienceCandidateScopeTopline>Topline Scope Can Con</my:experienceCandidateScopeTopline>
+	</my:experience>
+	<my:potential>
+		<my:potentialDefinition>This is the Potential Line</my:potentialDefinition>
+		<my:potentialCandidatePotentialTopline>Topline Compair</my:potentialCandidatePotentialTopline>
+	</my:potential>
+	<my:overall>
+		<my:overallCandidateTopline>Over all Over all con</my:overallCandidateTopline>
+	</my:overall>
+	<my:industryTypeListName>{C9677862-42FF-4F88-86B7-4A31AB71EE97}</my:industryTypeListName>
+</my:myFields>

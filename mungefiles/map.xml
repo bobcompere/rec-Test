@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+
+<table id="ManagementBehaviors" type="RowColumnRepeat">
+	  <row>
+	    <column>Management Behavior</column>
+	    <column unique="1" repeat="/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateSummary_section">/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateSummary_section/my:managementBehaviorCandidateNames</column>
+	    <column>Topline Comparison</column>
+	  </row>
+	  <row repeat="/my:myFields/my:managementBehavior_section">
+	    <column>/my:myFields/my:managementBehavior_section/my:managementBevahiorHeading</column>
+	    <column unique="1" repeat="/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateSummary_section">/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateSummary_section/my:managementBehaviorCandidateCapability</column>
+	    <column>/my:myFields/my:managementBehavior_section/my:managementBehaviorCandidateTopline</column>
+	  </row>
+	</table>
+
+  
+  
+  
+  </templates>

@@ -1,0 +1,5 @@
+# Property File
+# Sorted by com.swc.fpjava.util.PropertiesUtil
+# Wed Apr 09 07:49:51 CDT 2008
+INCLUDE.0=/var/tomcatx/webapps/xxxx/WEB-INF/optionfile1_general.options
+META.TEMPLATE_FOLDER=/var/tomcat4_0/webapps/bcs/WEB-INF/fo_templates/
