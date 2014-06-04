@@ -248,7 +248,7 @@ void insertNewClient() {
 	eclnt = clients.elements();
 	
 	try {
-		PrintWriter pw = new PrintWriter(new FileOutputStream(path + "clientlist"));
+		PrintWriter pw = new PrintWriter(new FileOutputStream(path + "\\clientlist"));
 		while (eclnt.hasMoreElements())
 			pw.println(((String)eclnt.nextElement()));
 		pw.flush();
